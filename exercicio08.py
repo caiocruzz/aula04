@@ -1,6 +1,7 @@
 soma = 0
-for x in range (5):
+qntdusu = int(input("Quantos numeros voce tem?: "))
+for x in range (qntdusu):
     notas = float(input("Digite uma nota: "))
     soma = soma + notas
-    calculomedia = soma / 5
+calculomedia = soma / qntdusu
 print(f"A media é: {calculomedia}")
